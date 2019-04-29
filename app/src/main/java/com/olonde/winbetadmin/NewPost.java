@@ -1,4 +1,4 @@
-package com.automata.winbetadmin;
+package com.olonde.winbetadmin;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
@@ -47,7 +47,7 @@ public class NewPost
     Uri imageUri;
     TextView txtFilePath;
     private StorageReference mStorage;
-
+    EditText txtLink;
 
     View v;
     @Nullable
@@ -56,6 +56,7 @@ public class NewPost
         this.title = this.v.findViewById(R.id.txtTitle);
         this.body = this.v.findViewById(R.id.txtBody);
         this.add = this.v.findViewById(R.id.btnAdd);
+        txtLink = v.findViewById(R.id.txtLink);
         this.aSwitch = this.v.findViewById(R.id.aSwitch);
         this.pd = new ProgressDialog(getActivity());
         attach=v.findViewById(R.id.attach);
@@ -68,7 +69,7 @@ public class NewPost
                     NewPost.this.postTip("winbettest");
                     return;
                 }
-                NewPost.this.postTip("winbet1");
+                NewPost.this.postTip("winbet2");
             }
         });
 
@@ -93,6 +94,9 @@ public class NewPost
         this.dbRef.child("title").setValue(this.title.getText().toString());
         this.dbRef.child("body").setValue(this.body.getText().toString());
         this.dbRef.child("id").setValue(str);
+        if (txtLink.getText() != null && !txtLink.getText().toString().equals("")) {
+            dbRef.child("link").setValue(txtLink.getText().toString());
+        }
         this.dbRef.child("time").setValue(System.currentTimeMillis()).addOnSuccessListener(new OnSuccessListener<Void>() {
             @Override
             public void onSuccess(Void aVoid) {
@@ -149,7 +153,7 @@ public class NewPost
                     dataJSON.put("body", paramString2);
                     dataJSON.put("title", paramString1);
                     json.put("notification", dataJSON);
-                    json.put("to", "/topics/winbet1");
+                    json.put("to", "/topics/winbet2");
                     RequestBody body = RequestBody.create(NewPost.JSON, json.toString());
                     Request request = new Request.Builder()
                             .header("Authorization", "key=AIzaSyBDWCIZ23nOtCXNXHjm7PbnK-7T3nJIquk")

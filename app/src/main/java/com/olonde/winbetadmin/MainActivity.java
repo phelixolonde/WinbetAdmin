@@ -1,4 +1,4 @@
-package com.automata.winbetadmin;
+package com.olonde.winbetadmin;
 
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;

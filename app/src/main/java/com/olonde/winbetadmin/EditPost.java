@@ -1,16 +1,13 @@
-package com.automata.winbetadmin;
+package com.olonde.winbetadmin;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnSuccessListener;
-import com.google.android.gms.tasks.Task;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -22,7 +19,7 @@ import java.util.Map;
 
 public class EditPost extends AppCompatActivity {
     EditText body;
-    DatabaseReference dbRef = FirebaseDatabase.getInstance().getReference().child("winbet1");
+    DatabaseReference dbRef = FirebaseDatabase.getInstance().getReference().child("winbet2");
     String item_key;
     EditText title;
     Button update;
