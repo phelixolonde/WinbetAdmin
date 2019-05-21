@@ -1,4 +1,4 @@
-package com.olonde.winbetadmin;
+package com.phelix.winbetadmin;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
@@ -69,7 +69,7 @@ public class NewPost
                     NewPost.this.postTip("winbettest");
                     return;
                 }
-                NewPost.this.postTip("winbet2");
+                NewPost.this.postTip("winbet3");
             }
         });
 
@@ -153,7 +153,7 @@ public class NewPost
                     dataJSON.put("body", paramString2);
                     dataJSON.put("title", paramString1);
                     json.put("notification", dataJSON);
-                    json.put("to", "/topics/winbet2");
+                    json.put("to", "/topics/winbet3");
                     RequestBody body = RequestBody.create(NewPost.JSON, json.toString());
                     Request request = new Request.Builder()
                             .header("Authorization", "key=AIzaSyBDWCIZ23nOtCXNXHjm7PbnK-7T3nJIquk")

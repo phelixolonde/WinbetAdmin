@@ -1,4 +1,4 @@
-package com.olonde.winbetadmin;
+package com.phelix.winbetadmin;
 
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;

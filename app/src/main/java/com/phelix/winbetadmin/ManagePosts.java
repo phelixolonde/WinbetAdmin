@@ -1,4 +1,4 @@
-package com.olonde.winbetadmin;
+package com.phelix.winbetadmin;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -38,7 +38,7 @@ public class ManagePosts
 
     public void onStart() {
         super.onStart();
-        this.dbRef = FirebaseDatabase.getInstance().getReference().child("winbet2");
+        this.dbRef = FirebaseDatabase.getInstance().getReference().child("winbet3");
         firebaseRecyclerAdapter = new FirebaseRecyclerAdapter<Model, ItemViewHolder>(
                 Model.class,
                 R.layout.row,
@@ -66,7 +66,7 @@ public class ManagePosts
         public ItemViewHolder(View paramView) {
             super(paramView);
             this.mView = paramView;
-            this.mRef = FirebaseDatabase.getInstance().getReference().child("winbet2");
+            this.mRef = FirebaseDatabase.getInstance().getReference().child("winbet3");
             this.mRef.keepSynced(false);
             this.overflow = this.mView.findViewById(R.id.overflow);
             this.txtId = this.mView.findViewById(R.id.txtId);

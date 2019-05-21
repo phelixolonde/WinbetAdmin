@@ -1,4 +1,4 @@
-package com.olonde.winbetadmin;
+package com.phelix.winbetadmin;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
