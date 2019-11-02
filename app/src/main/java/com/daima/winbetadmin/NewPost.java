@@ -1,4 +1,4 @@
-package com.phelix.winbetadmin;
+package com.daima.winbetadmin;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
@@ -66,10 +66,10 @@ public class NewPost
         this.add.setOnClickListener(new View.OnClickListener() {
             public void onClick(View paramAnonymousView) {
                 if (NewPost.this.aSwitch.isChecked()) {
-                    NewPost.this.postTip("winbettest");
+                    NewPost.this.postTip("wonbettest");
                     return;
                 }
-                NewPost.this.postTip("winbet3");
+                NewPost.this.postTip("wonbet");
             }
         });
 
@@ -153,10 +153,10 @@ public class NewPost
                     dataJSON.put("body", paramString2);
                     dataJSON.put("title", paramString1);
                     json.put("notification", dataJSON);
-                    json.put("to", "/topics/winbet3");
+                    json.put("to", "/topics/wonbet");
                     RequestBody body = RequestBody.create(NewPost.JSON, json.toString());
                     Request request = new Request.Builder()
-                            .header("Authorization", "key=AIzaSyBDWCIZ23nOtCXNXHjm7PbnK-7T3nJIquk")
+                            .header("Authorization", "key=AIzaSyCtMpRoIswn2VV7i7le3-_4UJXgQyaABkc")
                             .url("https://fcm.googleapis.com/fcm/send").post(body)
                             .build();
                     Response response = client.newCall(request).execute();

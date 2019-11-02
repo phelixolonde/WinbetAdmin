@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/WinbetAdmin.iml" filepath="$PROJECT_DIR$/WinbetAdmin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WonbetAdmin.iml" filepath="$PROJECT_DIR$/WonbetAdmin.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

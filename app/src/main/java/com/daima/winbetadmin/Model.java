@@ -1,4 +1,4 @@
-package com.phelix.winbetadmin;
+package com.daima.winbetadmin;
 
 class Model
 {

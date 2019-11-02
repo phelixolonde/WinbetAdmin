@@ -1,34 +1,34 @@
 {
   "project_info": {
-    "project_number": "87117019170",
-    "firebase_url": "https://agro-market-f0401.firebaseio.com",
-    "project_id": "agro-market-f0401",
-    "storage_bucket": "agro-market-f0401.appspot.com"
+    "project_number": "564321573669",
+    "firebase_url": "https://daima-735c8.firebaseio.com",
+    "project_id": "daima-735c8",
+    "storage_bucket": "daima-735c8.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:87117019170:android:49ae11500d2737d9",
+        "mobilesdk_app_id": "1:564321573669:android:11cae5f8cc756eacf098cc",
         "android_client_info": {
-          "package_name": "com.automata.jp"
+          "package_name": "com.daima.winbetadmin"
         }
       },
       "oauth_client": [
         {
-          "client_id": "87117019170-ht7fh8m3ujn7souohjjra0a8jmg2vf44.apps.googleusercontent.com",
+          "client_id": "564321573669-2uaoqul2fq50hikurol4vjkb9nalj4tf.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyB_Mf4txEeiGBRLHJZBGUyvHQyjGmygAQI"
+          "current_key": "AIzaSyDrHUY5eo8xvdKLc6X49brrX4KzwCmDjk0"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "87117019170-ht7fh8m3ujn7souohjjra0a8jmg2vf44.apps.googleusercontent.com",
+              "client_id": "564321573669-2uaoqul2fq50hikurol4vjkb9nalj4tf.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
@@ -37,230 +37,27 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:87117019170:android:8a78667e0947287e",
+        "mobilesdk_app_id": "1:564321573669:android:10dab213d7da845df098cc",
         "android_client_info": {
-          "package_name": "com.automata.jpadmin"
+          "package_name": "com.daima.wonbet"
         }
       },
       "oauth_client": [
         {
-          "client_id": "87117019170-ht7fh8m3ujn7souohjjra0a8jmg2vf44.apps.googleusercontent.com",
+          "client_id": "564321573669-2uaoqul2fq50hikurol4vjkb9nalj4tf.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyB_Mf4txEeiGBRLHJZBGUyvHQyjGmygAQI"
+          "current_key": "AIzaSyDrHUY5eo8xvdKLc6X49brrX4KzwCmDjk0"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "87117019170-ht7fh8m3ujn7souohjjra0a8jmg2vf44.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:87117019170:android:7abc26bd40785722",
-        "android_client_info": {
-          "package_name": "com.automata.winbet"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "87117019170-ht7fh8m3ujn7souohjjra0a8jmg2vf44.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyB_Mf4txEeiGBRLHJZBGUyvHQyjGmygAQI"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "87117019170-ht7fh8m3ujn7souohjjra0a8jmg2vf44.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:87117019170:android:fa3c09343d0f8ea2",
-        "android_client_info": {
-          "package_name": "com.automata.winbetadmin"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "87117019170-ht7fh8m3ujn7souohjjra0a8jmg2vf44.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyB_Mf4txEeiGBRLHJZBGUyvHQyjGmygAQI"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "87117019170-ht7fh8m3ujn7souohjjra0a8jmg2vf44.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:87117019170:android:bb255e9327434408",
-        "android_client_info": {
-          "package_name": "com.hansen.learnluo"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "87117019170-ht7fh8m3ujn7souohjjra0a8jmg2vf44.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyB_Mf4txEeiGBRLHJZBGUyvHQyjGmygAQI"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "87117019170-ht7fh8m3ujn7souohjjra0a8jmg2vf44.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:87117019170:android:f94f8f11544ad5b7",
-        "android_client_info": {
-          "package_name": "com.olonde.winbet"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "87117019170-ht7fh8m3ujn7souohjjra0a8jmg2vf44.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyB_Mf4txEeiGBRLHJZBGUyvHQyjGmygAQI"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "87117019170-ht7fh8m3ujn7souohjjra0a8jmg2vf44.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:87117019170:android:41e52d7f09a53153",
-        "android_client_info": {
-          "package_name": "com.olonde.winbetadmin"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "87117019170-ht7fh8m3ujn7souohjjra0a8jmg2vf44.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyB_Mf4txEeiGBRLHJZBGUyvHQyjGmygAQI"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "87117019170-ht7fh8m3ujn7souohjjra0a8jmg2vf44.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:87117019170:android:f9e391ea9872ead7",
-        "android_client_info": {
-          "package_name": "com.phelix.winbet"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "87117019170-ht7fh8m3ujn7souohjjra0a8jmg2vf44.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyB_Mf4txEeiGBRLHJZBGUyvHQyjGmygAQI"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "87117019170-ht7fh8m3ujn7souohjjra0a8jmg2vf44.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:87117019170:android:2c6b309bc9e827c5",
-        "android_client_info": {
-          "package_name": "com.phelix.winbetadmin"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "87117019170-ht7fh8m3ujn7souohjjra0a8jmg2vf44.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyB_Mf4txEeiGBRLHJZBGUyvHQyjGmygAQI"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "87117019170-ht7fh8m3ujn7souohjjra0a8jmg2vf44.apps.googleusercontent.com",
+              "client_id": "564321573669-2uaoqul2fq50hikurol4vjkb9nalj4tf.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

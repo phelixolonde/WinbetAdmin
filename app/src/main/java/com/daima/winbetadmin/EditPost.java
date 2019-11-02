@@ -1,4 +1,4 @@
-package com.phelix.winbetadmin;
+package com.daima.winbetadmin;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -19,7 +19,7 @@ import java.util.Map;
 
 public class EditPost extends AppCompatActivity {
     EditText body;
-    DatabaseReference dbRef = FirebaseDatabase.getInstance().getReference().child("winbet3");
+    DatabaseReference dbRef = FirebaseDatabase.getInstance().getReference().child("wonbet");
     String item_key;
     EditText title;
     Button update;
